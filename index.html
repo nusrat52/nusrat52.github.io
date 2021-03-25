@@ -8,19 +8,48 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar container">
+      <nav class="navbar-container">
+    <section class="navbar container">
       <a href="#" class="navbar__logo">Nüsrət İbrahimli</a>
       <ul class="navbar__nav">
+        <li class="navbar__navs"><a onClick="navClicker()" class="dnone" href="#ana">Ana səhifə</a></li>
+
         <li class="navbar__navs underline">
           <a class="dnone" href="#nail">Nəaliyyətlər</a>
         </li>
-        <li class="navbar__navs"><a class="dnone" href="#">Hobbilər</a></li>
-        <li class="navbar__navs"><a class="dnone" href="#">Əlaqə</a></li>
+        <li class="navbar__navs"><a class="dnone" href="#hobbi">Hobbilər</a></li>
+        <li class="navbar__navs"><a class="dnone" href="#contact">Əlaqə</a></li>
       </ul>
-    </nav>
+    </section>
+</nav>
+
+<nav class="navbar2 dis-none">
+    <div class="navbar2__hamburger "><i class="navbar2__hi fas fa-bars"></i>
+    </div>
+    <div class="navbar2__x">    <i  class="navbar2__xi fas fa-times"></i>
+    </div>
+    <a href="#" class="navbar__logo text-white">Nüsrət İbrahimli</a>
+
+
+    <ul class="navbar__nav">
+        <li class="navbar__navs"><a onClick="navClicker()" class="dnone" href="#ana">Ana səhifə</a></li>
+
+        <li class="navbar__navs">
+          <a onClick="navClicker()" class="dnone" href="#nail">Nəaliyyətlər</a>
+        </li>
+        <li class="navbar__navs"><a onClick="navClicker()" class="dnone" href="#hobbi">Hobbilər</a></li>
+        <li class="navbar__navs"><a onClick="navClicker()" class="dnone" href="#contact">Əlaqə</a></li>
+      </ul>
+
+
+
+
+</nav>
+
+
     <!-- <h1 class="video__writing">Coding is more than prefession...</h1>  -->
 
-    <header class="mainHeader">
+    <header id="ana" class="mainHeader">
       <section class="video">
         <video class="video__video" autoplay muted loop id="myVideo">
           <source src="assets/baki.mp4" type="video/mp4" />
@@ -138,7 +167,7 @@
 
 
 
-<section class="hobbies container">
+<section id="hobbi" class="hobbies container">
     <h1 class="hobbies__basliq">Özüm haqda</h1>
     <p class="hobbies__text">Yüksək analitik düşünmə qabiliyyətinə malik , stres altinda işləməyə qadir, ünsiyyətcil və səmimi biriyəm. Proqramlaşdırmaya marağım böyükdü və bu sahədə
        yaxşı nəaliyyətlər əldə edəcəyimə inaniram. Boş vaxtlarimda idmanla məşğul olmağı, dostlarımla əylənməyi, film izləməyi sevirəm.
@@ -146,7 +175,7 @@
 </section>
 
 
-<section class="contact">
+<section id="contact" class="contact">
     <h1 class="contact__header">Contact</h1>
 
     <main class="contact__main container">
@@ -171,9 +200,9 @@
 </section>
 
 <div class="updown">
-  <div id="up" class="upup"><i class="fas fa-chevron-circle-up"></i></div>
+  <div id="up" class="upup invisible"><i class="fas fa-chevron-circle-up"></i></div>
 
-  <div class="down"><i class="fas fa-chevron-circle-down"></i></div>
+  <div class="down visiblee"><i class="fas fa-chevron-circle-down"></i></div>
 </div>
     <script
     src="https://kit.fontawesome.com/1049e04dd0.js"
