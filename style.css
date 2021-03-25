@@ -269,6 +269,8 @@ body {
   justify-content: center;
   align-items: center;
   overflow: scroll;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .d-none {
   opacity: 0;
