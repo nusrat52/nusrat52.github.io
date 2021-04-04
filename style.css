@@ -263,6 +263,7 @@ body {
 }
 
 .slid__main {
+  transition: 2s;
   width: 900px;
   background-color: rgba(0, 0, 0, 0.75);
   height: 250px;
@@ -275,6 +276,7 @@ body {
 }
 
 .slid__main-sp {
+  transition: 2s;
   width: 900px;
   background-color: rgba(0, 0, 0, 0.75);
   height: 250px;
