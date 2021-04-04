@@ -193,3 +193,92 @@ function navClicker(){
 
 document.querySelector(".navbar2__xi").addEventListener("click", navClicker)
 document.querySelector(".navbar2__hamburger").addEventListener("click", navClicker)
+
+setTimeout(() => {
+  document.querySelector(".mainHeader__keep").classList.add("keepAnim")
+}, 1000)
+
+setTimeout(() => {
+  document.querySelector(".mainHeader__just").classList.add("justAnim")
+}, 2000)
+
+
+setTimeout(() => {
+  document.querySelector(".C").classList.add("C_anim")
+}, 4000)
+
+setTimeout(() => {
+  document.querySelector(".R").classList.add("R_anim")
+}, 4100)
+
+setTimeout(() => {
+  document.querySelector(".mainHeader__scroll").classList.add("mainHeader__r")
+}, 4200)
+
+setTimeout(() => {
+  document.querySelector(".O").classList.add("O_anim")
+}, 4400)
+
+setTimeout(() => {
+  document.querySelector(".mainHeader__scroll").classList.add("mainHeader__o")
+}, 4500)
+
+setTimeout(() => {
+  document.querySelector(".L").classList.add("L_anim")
+}, 4700)
+
+setTimeout(() => {
+  document.querySelector(".mainHeader__scroll").classList.add("mainHeader__l")
+}, 4800)
+setTimeout(() => {
+  document.querySelector(".L2").classList.add("L2_anim")
+}, 5000)
+
+setTimeout(() => {
+  document.querySelector(".mainHeader__scroll").classList.add("mainHeader__l2")
+}, 5100)
+
+
+setTimeout(() => {
+  document.querySelector(".I").classList.add("I_anim")
+}, 5300)
+
+setTimeout(() => {
+  document.querySelector(".mainHeader__scroll").classList.add("mainHeader__i")
+}, 5400)
+
+
+setTimeout(() => {
+  document.querySelector(".N").classList.add("N_anim")
+}, 5600)
+
+setTimeout(() => {
+  document.querySelector(".mainHeader__scroll").classList.add("mainHeader__n")
+}, 5700)
+
+setTimeout(() => {
+  document.querySelector(".G").classList.add("G_anim")
+}, 5900)
+
+setTimeout(() => {
+  document.querySelector(".mainHeader__scroll").classList.add("mainHeader__g")
+}, 6000)
+
+
+
+setTimeout(() => {
+  document.querySelector(".S").classList.add("S_anim")
+}, 6200)
+
+setTimeout(() => {
+  document.querySelector(".mainHeader__scroll").classList.add("mainHeader__s")
+}, 6300)
+
+
+
+
+
+
+
+
+

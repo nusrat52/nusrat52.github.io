@@ -6,46 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nusret Ibrahimli</title>
     <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-      <nav class="navbar-container">
-    <section class="navbar container">
-      <a href="#" class="navbar__logo">Nüsrət İbrahimli</a>
+    <nav class="navbar-container">
+      <section class="navbar container">
+        <a href="#" class="navbar__logo">Nüsrət İbrahimli</a>
+        <ul class="navbar__nav">
+          <li class="navbar__navs">
+            <a onClick="navClicker()" class="dnone text-active" href="#ana"
+              >Ana səhifə</a
+            >
+          </li>
+
+          <li class="navbar__navs underline">
+            <a class="dnone" href="#nail">Nəaliyyətlər</a>
+          </li>
+          <li class="navbar__navs">
+            <a class="dnone" href="#hobbi">Hobbilər</a>
+          </li>
+          <li class="navbar__navs">
+            <a class="dnone" href="#contact">Əlaqə</a>
+          </li>
+        </ul>
+      </section>
+    </nav>
+
+    <nav class="navbar2 dis-none">
+      <div class="navbar2__hamburger">
+        <i class="navbar2__hi fas fa-bars"></i>
+      </div>
+      <div class="navbar2__x"><i class="navbar2__xi fas fa-times"></i></div>
+      <a href="#" class="navbar__logo text-white">Nüsrət İbrahimli</a>
+
       <ul class="navbar__nav">
-        <li class="navbar__navs"><a onClick="navClicker()" class="dnone" href="#ana">Ana səhifə</a></li>
-
-        <li class="navbar__navs underline">
-          <a class="dnone" href="#nail">Nəaliyyətlər</a>
+        <li class="navbar__navs">
+          <a onClick="navClicker()" class="dnone" href="#ana">Ana səhifə</a>
         </li>
-        <li class="navbar__navs"><a class="dnone" href="#hobbi">Hobbilər</a></li>
-        <li class="navbar__navs"><a class="dnone" href="#contact">Əlaqə</a></li>
-      </ul>
-    </section>
-</nav>
-
-<nav class="navbar2 dis-none">
-    <div class="navbar2__hamburger "><i class="navbar2__hi fas fa-bars"></i>
-    </div>
-    <div class="navbar2__x">    <i  class="navbar2__xi fas fa-times"></i>
-    </div>
-    <a href="#" class="navbar__logo text-white">Nüsrət İbrahimli</a>
-
-
-    <ul class="navbar__nav">
-        <li class="navbar__navs"><a onClick="navClicker()" class="dnone" href="#ana">Ana səhifə</a></li>
 
         <li class="navbar__navs">
           <a onClick="navClicker()" class="dnone" href="#nail">Nəaliyyətlər</a>
         </li>
-        <li class="navbar__navs"><a onClick="navClicker()" class="dnone" href="#hobbi">Hobbilər</a></li>
-        <li class="navbar__navs"><a onClick="navClicker()" class="dnone" href="#contact">Əlaqə</a></li>
+        <li class="navbar__navs">
+          <a onClick="navClicker()" class="dnone" href="#hobbi">Hobbilər</a>
+        </li>
+        <li class="navbar__navs">
+          <a onClick="navClicker()" class="dnone" href="#contact">Əlaqə</a>
+        </li>
       </ul>
-
-
-
-
-</nav>
-
+    </nav>
 
     <!-- <h1 class="video__writing">Coding is more than prefession...</h1>  -->
 
@@ -58,6 +72,19 @@
       <div class="video__wrapper">
         <img class="video__profil" src="assets/nusret.jpg" alt="" />
       </div>
+      <p class="mainHeader__just">Just</p>
+      <p class="mainHeader__keep">Keep</p>
+      <div class="mainHeader__scroll">
+        <span class="S mainHeader__alph">S</span>
+        <span class="C mainHeader__alph">c</span>
+        <span class="R mainHeader__alph">r</span>
+        <span class="O mainHeader__alph">o</span>
+        <span class="L mainHeader__alph">l</span>
+        <span class="L2 mainHeader__alph">l</span>
+        <span class="I mainHeader__alph">i</span>
+        <span class="N mainHeader__alph">n</span>
+        <span class="G mainHeader__alph">g</span>
+      </div>
     </header>
     <section class="slid">
       <article class="slid__content">
@@ -68,14 +95,13 @@
           <p class="slid__p d-none">2012-2016 (Bakalavr)</p>
         </header>
 
-        <section class="slid__main d-none">
+        <section class="slid__main slid__main-sp2  d-none">
           <p class="slid__p2 d-none">
-       
-             2012-ci ilde TQDK-nin
-            kecirtdiyi imtahanda 572 bal yigaraq ADNS universitetinin QNM
-            fakultesine daxil olmusam. Universitet illerinde derslerimle yanasi
-            idmanla, müxtəlif sosyal yığıncaqlarla və şirkətlərin internship
-            programları ilə məşğul olmuşam. Və nəhayət 2016-ci ildə universiteti bitirib hərbi xidmətə yollandim
+            2012-ci ilde TQDK-nin kecirtdiyi imtahanda 572 bal yigaraq ADNS
+            universitetinin QNM fakultesine daxil olmusam. Universitet illerinde
+            derslerimle yanasi idmanla, müxtəlif sosyal yığıncaqlarla və
+            şirkətlərin internship programları ilə məşğul olmuşam. Və nəhayət
+            2016-ci ildə universiteti bitirib hərbi xidmətə yollandim
           </p>
         </section>
       </article>
@@ -83,131 +109,133 @@
     <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
 
     <section class="slid1">
-        <article class="slid__content">
-          <header class="slid__header1">
-            <h1 class="slid__header d-none1">
-                International English Language Test
-            </h1>
-            <p class="slid__p d-none1">15.11.2018</p>
-          </header>
-  
-          <section class="slid__main d-none1">
-            <p class="slid__p2 d-none1">
-         
-               2018 May ayinda Ingilis dili hazrlıqlarına baslayıb hemin ilin Noyabr ayinda IELTS 6 (B2)
-               sertifikatımi aldim
-            </p>
-          </section>
-        </article>
-      </section>
+      <article class="slid__content">
+        <header class="slid__header1">
+          <h1 class="slid__header d-none1">
+            International English Language Test
+          </h1>
+          <p class="slid__p d-none1">15.11.2018</p>
+        </header>
 
+        <section class="slid__main d-none1">
+          <p class="slid__p2 d-none1">
+            2018 May ayinda Ingilis dili hazrlıqlarına baslayıb hemin ilin
+            Noyabr ayinda IELTS 6 (B2) sertifikatımi aldim
+          </p>
+        </section>
+      </article>
+    </section>
 
-      <section class="slid2">
-        <article class="slid__content">
-          <header class="slid__header1">
-            <h1 class="slid__header d-none2">
-                SOCAR
-            </h1>
-            <p class="slid__p d-none2">07.01.2019-15.02.2020</p>
-          </header>
-  
-          <section class="slid__main-sp d-none2">
-            <p class="slid__p2 d-none2">
-         
-               2019-cu ilin Dekabr ayında coxsaylı cəhdlərimin ardından SOCAR-a işçi kimi qəbul ola bildim.
-               Əvvəlca quyuların yeraltı və əsaslı təmiri üzrə operatr kimi işə başlasamda həmin ilin yay aylarında 
-               idarə tərəfindən vəzifəcə bir pillə yuxarı qaldırılaraq Qazmaçı köməkçisi vəzifəsinə yüksəldildim.
-               2020-ci ilin Fevral ayında proqramlaşdırmaya olan marağımdan işimdən ayrıldım.
-            </p>
-          </section>
-        </article>
-      </section>
+    <section class="slid2">
+      <article class="slid__content">
+        <header class="slid__header1">
+          <h1 class="slid__header d-none2">SOCAR</h1>
+          <p class="slid__p d-none2">07.01.2019-15.02.2020</p>
+        </header>
 
-      <section class="slid3">
-        <article class="slid__content">
-          <header class="slid__header1">
-            <h1 class="slid__header d-none3">
-                TECH Academy
-            </h1>
-            <p class="slid__p d-none3">09.11.2020</p>
-          </header>
-  
-          <section class="slid__main d-none3">
-            <p class="slid__p2 d-none3">
-         
-            Bir qədər individual məşğul olduqdan sonra 2020-ci ilin Dekabr ayında Tech academy-də web developmenti daha dərindən və
-            peşəkar şəkildə öyrənməyə başladim. Kurs real proyektlərlə taniş oldumağıma və biraz da bu saheye olan marağımı artirmağa kömək oldu.
-             
+        <section class="slid__main-sp d-none2">
+          <p class="slid__p2 d-none2">
+            2019-cu ilin Dekabr ayında coxsaylı cəhdlərimin ardından SOCAR-a
+            işçi kimi qəbul ola bildim. Əvvəlca quyuların yeraltı və əsaslı
+            təmiri üzrə operatr kimi işə başlasamda həmin ilin yay aylarında
+            idarə tərəfindən vəzifəcə bir pillə yuxarı qaldırılaraq Qazmaçı
+            köməkçisi vəzifəsinə yüksəldildim. 2020-ci ilin Fevral ayında
+            proqramlaşdırmaya olan marağımdan işimdən ayrıldım.
+          </p>
+        </section>
+      </article>
+    </section>
 
-            </p>
-          </section>
-        </article>
-      </section>
+    <section class="slid3">
+      <article class="slid__content">
+        <header class="slid__header1">
+          <h1 class="slid__header d-none3">TECH Academy</h1>
+          <p class="slid__p d-none3">09.11.2020</p>
+        </header>
 
+        <section class="slid__main slid__main-sp3 d-none3">
+          <p class="slid__p2 d-none3">
+            Bir qədər individual məşğul olduqdan sonra 2020-ci ilin Dekabr
+            ayında Tech academy-də web developmenti daha dərindən və peşəkar
+            şəkildə öyrənməyə başladim. Kurs real proyektlərlə taniş oldumağıma
+            və biraz da bu saheye olan marağımı artirmağa kömək oldu.
+          </p>
+        </section>
+      </article>
+    </section>
 
-      <section class="slid4">
-        <article class="slid__content">
-          <header class="slid__header1">
-            <h1 class="slid__header d-none4">
-                Bilik və bacarıqlarım
-            </h1>
-            <!-- <p class="slid__p d-none4">09.11.2020</p> -->
-          </header>
-  
-          <section class="slid__main d-none4">
-            <p class="slid__p2 d-none4">
-                HTML, Javascript, CSS, Bootstrap, SCSS, SASS, LESS, SEO qaydaları, GULP.js, React.js, Redux, BEM qaydaları, Python, Flask, 
-                Jinja, Docker, mySQL, English language
-             
+    <section class="slid4">
+      <article class="slid__content">
+        <header class="slid__header1">
+          <h1 class="slid__header d-none4">Bilik və bacarıqlarım</h1>
+          <!-- <p class="slid__p d-none4">09.11.2020</p> -->
+        </header>
 
-            </p>
-          </section>
-        </article>
-      </section>
+        <section class="slid__main d-none4">
+          <p class="slid__p2 d-none4">
+            HTML, Javascript, CSS, Bootstrap, SCSS, SASS, LESS, SEO qaydaları,
+            GULP.js, React.js, Redux, BEM qaydaları, Python, Flask, Jinja,
+            Docker, mySQL, English language
+          </p>
+        </section>
+      </article>
+    </section>
 
+    <section id="hobbi" class="hobbies container">
+      <h1 class="hobbies__basliq">Özüm haqda</h1>
+      <p class="hobbies__text">
+        Yüksək analitik düşünmə qabiliyyətinə malik , stres altinda işləməyə
+        qadir, ünsiyyətcil və səmimi biriyəm. Proqramlaşdırmaya marağım böyükdü
+        və bu sahədə yaxşı nəaliyyətlər əldə edəcəyimə inaniram. Boş vaxtlarimda
+        idmanla məşğul olmağı, dostlarımla əylənməyi, film izləməyi sevirəm.
+      </p>
+    </section>
 
+    <section id="contact" class="contact">
+      <h1 class="contact__header">Contact</h1>
 
-<section id="hobbi" class="hobbies container">
-    <h1 class="hobbies__basliq">Özüm haqda</h1>
-    <p class="hobbies__text">Yüksək analitik düşünmə qabiliyyətinə malik , stres altinda işləməyə qadir, ünsiyyətcil və səmimi biriyəm. Proqramlaşdırmaya marağım böyükdü və bu sahədə
-       yaxşı nəaliyyətlər əldə edəcəyimə inaniram. Boş vaxtlarimda idmanla məşğul olmağı, dostlarımla əylənməyi, film izləməyi sevirəm.
-    </p>
-</section>
-
-
-<section id="contact" class="contact">
-    <h1 class="contact__header">Contact</h1>
-
-    <main class="contact__main container">
+      <main class="contact__main container">
         <p class="contact__text"><strong>Phone: </strong>+994507301013</p>
-        <p class="contact__text"><strong>E-mail: </strong>nusretibragimli@gmail.com</p>
-    </main>
-    <footer class="contact__social">
-
+        <p class="contact__text">
+          <strong>E-mail: </strong>nusretibragimli@gmail.com
+        </p>
+      </main>
+      <footer class="contact__social">
         <div class="tooltip iconundivi">
-            <a href="https://www.facebook.com/nusret.ibrahimli"
-              ><i class="fab fa-facebook-f"></i
-            >  <span class="tooltiptext">Nusret Ibrahimli</span></a>
-          </div>
-          <div class="tooltip iconundivi mx-10">
-            <a href="https://www.linkedin.com/in/nusret-ibrahimli-b42063148/"><i class="fab fa-linkedin"></i> <span class="tooltiptext">Nusret Ibrahimli</span></a>
-          </div>
-          <div class="iconundivi tooltip">
-            <a href="https://github.com/nusrat52"><i class="fab fa-github"></i> <span class="tooltiptext">Nusrat52</span></a>
-          </div>
+          <a href="https://www.facebook.com/nusret.ibrahimli"
+            ><i class="fab fa-facebook-f"></i>
+            <span class="tooltiptext">Nusret Ibrahimli</span></a
+          >
+        </div>
+        <div class="tooltip iconundivi mx-10">
+          <a href="https://www.linkedin.com/in/nusret-ibrahimli-b42063148/"
+            ><i class="fab fa-linkedin"></i>
+            <span class="tooltiptext">Nusret Ibrahimli</span></a
+          >
+        </div>
+        <div class="iconundivi tooltip">
+          <a href="https://github.com/nusrat52"
+            ><i class="fab fa-github"></i>
+            <span class="tooltiptext">Nusrat52</span></a
+          >
+        </div>
+      </footer>
+    </section>
 
-    </footer>
-</section>
+    <div class="updown">
+      <div id="up" class="upup invisible">
+        <i class="fas fa-chevron-circle-up"></i>
+      </div>
 
-<div class="updown">
-  <div id="up" class="upup invisible"><i class="fas fa-chevron-circle-up"></i></div>
+      <div class="down visiblee">
+        <i class="fas fa-chevron-circle-down"></i>
+      </div>
+    </div>
 
-  <div class="down visiblee"><i class="fas fa-chevron-circle-down"></i></div>
-</div>
     <script
-    src="https://kit.fontawesome.com/1049e04dd0.js"
-    crossorigin="anonymous"
-  ></script>
+      src="https://kit.fontawesome.com/1049e04dd0.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="app.js"></script>
   </body>
 </html>
