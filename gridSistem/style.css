@@ -1,0 +1,511 @@
+html,
+body {
+  margin: 0;
+  padding: 0%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 430px 430px 230px;
+  grid-template-areas:
+    "item1 item1 item2 item2 "
+    "item3 item4 item4 item5"
+    "item6 item7 item7 item5"
+    "item8 item9 item10 item10";
+}
+
+.item1 {
+  grid-area: item1;
+  overflow: hidden;
+}
+
+.item1_img {
+  width: 249px;
+  margin-top: 80px;
+  background-color: #f7f8f9;
+}
+.item2 {
+  grid-area: item2;
+  overflow: hidden;
+
+  background-color: #f7f8f9;
+  height: 100%;
+}
+
+.container2 {
+  display: grid;
+
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 430px 430px;
+}
+
+.container3 {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 230px;
+}
+
+.item3 {
+  grid-area: item3;
+
+  background-color: #f05638;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.item4 {
+  grid-area: item4;
+  overflow: hidden;
+}
+
+.item4_sekil {
+  width: 280px;
+  background: url("https://uploads-ssl.webflow.com/5bc242f45a5ed923b1704210/5bc4451fac429126a5d9f264_Macintosh.png")
+    no-repeat right center;
+  background-size: cover;
+  height: 200px;
+}
+.item3_img {
+  width: 319px;
+}
+
+.item5 {
+  grid-area: item5;
+  background-color: #8f76bc;
+  overflow: hidden;
+}
+
+.item6 {
+  grid-area: item6;
+
+  overflow: hidden;
+  background-color: #f7f8f9;
+}
+
+/* ----------------hazir----------------- */
+/* ------------------------------------------------------spspspsp----------------------------------------------- */
+.yazilar {
+  width: 32%;
+  align-self: center;
+}
+.yazilar_melumat {
+  color: #9fa3a7;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.yazilar_basliq {
+  color: #333;
+  font-size: 22px;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+}
+
+.yazilar_melumat2 {
+  color: #9fa3a7;
+
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+.yazilar_link {
+  color: #27b9c2;
+  text-decoration: underline;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.narinci {
+  color: #ffc80a;
+  text-decoration: none;
+  letter-spacing: 5px;
+}
+
+.item4_yazilar {
+  width: 185px;
+  position: relative;
+}
+
+.item4_img {
+  width: 460px;
+  position: absolute;
+  right: 15px;
+  top: 210px;
+}
+
+.leter5 {
+  letter-spacing: 3px;
+}
+.item5_disc {
+  background-color: #8166b0;
+  width: 373px;
+  height: 373px;
+  border-radius: 50%;
+}
+
+.item5_yazilar {
+  width: 80%;
+  max-width: 290px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.btn {
+  color: black;
+  background-color: #ffc80a;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  width: 160px;
+  height: 60px;
+  border-radius: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item5_basliq {
+  background-color: #8f76bc;
+  border-radius: 10px;
+  height: 23px;
+  height: 28px;
+  margin-bottom: 15px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.item5_img {
+  width: 239px;
+}
+
+.item6_img {
+  width: 248px;
+}
+
+.item6-sekil {
+  width: 285px;
+}
+.item7_minicaps {
+  background-color: #f05638;
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  border-radius: 5px;
+  font-weight: 900;
+
+  margin-left: 25px;
+}
+
+.item7 {
+  grid-area: item7;
+  background-color: #93b6b7;
+  background-image: url("https://uploads-ssl.webflow.com/5bc242f45a5ed923b1704210/5bc2f42d5a5ed97dab707e7e_UX.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position-y: bottom;
+  background-position-x: 50%;
+  overflow: hidden;
+}
+.item7_img {
+  width: 90%;
+  position: absolute;
+  right: 17%;
+  bottom: 0;
+}
+.item7_yazilar {
+  justify-self: center;
+}
+.item7_sekil {
+  width: 100%;
+  position: relative;
+}
+
+.item8 {
+  grid-area: item8;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #38d5f4;
+}
+.item9 {
+  grid-area: item9;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.item8_circle {
+  height: 240px;
+  width: 240px;
+  background-color: #35cfed;
+  border-radius: 50%;
+}
+
+.item8_img {
+  width: 44px;
+}
+
+.item10 {
+  grid-area: item10;
+  padding: initial 38px initial 38px;
+  background-color: #2c2c2c;
+  overflow: hidden;
+}
+
+.item10_img {
+  width: 271px;
+}
+
+.goy {
+  color: #27b9c2;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.m_0 {
+  margin: 0;
+  padding: 0;
+}
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-start {
+  align-items: flex-start;
+}
+.align-self-center {
+  align-self: center;
+}
+.align-self-start {
+  align-self: flex-start;
+}
+
+.shadow {
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.aligncenter {
+  text-align: center;
+}
+.container60 {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.size48 {
+  font-size: 48px;
+}
+.size32 {
+  font-size: 32px;
+}
+
+.mw550 {
+  max-width: 550px;
+}
+.mw230 {
+  max-width: 230px;
+}
+.text-center {
+  text-align: center;
+}
+.text-white {
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w100 {
+  width: 100%;
+}
+.w80 {
+  width: 80%;
+}
+.w70 {
+  width: 70%;
+}
+.w34 {
+  width: 34%;
+}
+.text10 {
+  font-size: 10px;
+}
+
+.text-yellow {
+  color: #ffc80a;
+}
+.decor-none {
+  text-decoration: none;
+}
+
+.mw280 {
+  max-width: 280px;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.h80 {
+  height: 76.1%;
+}
+
+.w190 {
+  width: 190px;
+}
+
+.bg-green {
+  background: #7bc424;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+/* -----------------------------------------------responsive----------------------------------------------------------- */
+
+@media only screen and (max-width: 991px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 430px 430px 430px 430px 390px 430px 170px 230px;
+    grid-template-areas:
+      "item2 item2"
+      "item1 item1"
+      "item3 item6"
+      "item4 item4"
+      "item8 item5"
+      "item7 item5"
+      "item9 item9"
+      "item10 item10";
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 430px 430px 430px 430px 390px 430px 170px 230px;
+    grid-template-areas:
+      "item2 item2"
+      "item1 item1"
+      "item3 item6"
+      "item4 item4"
+      "item8 item5"
+      "item7 item5"
+      "item9 item9"
+      "item10 item10";
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 390px 630px 390px 390px 720px 245px 300px 800px 170px 390px;
+    grid-template-areas:
+      "item2 "
+      "item1"
+      "item3"
+      "item6"
+      "item4"
+      "item8"
+      "item7"
+      "item5"
+      "item9"
+      "item10";
+  }
+
+  .item4-mobile {
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    padding-top: 30px;
+  }
+  .item4_yazilat-mobile {
+    width: 100%;
+    /* margin-bottom: 40px; */
+  }
+
+  .item4_img {
+    width: 180%;
+    position: absolute;
+    right: 20%;
+    top: 155px;
+  }
+
+  .ml_mobile {
+    margin-left: 12px;
+  }
+  .item4_yazilar {
+    width: 100%;
+  }
+  .item10 {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .item10_sekil_mobile {
+    margin-right: 25%;
+  }
+
+  .item10_basliq {
+    width: 100%;
+    max-width: 95%;
+    margin-top: 0;
+  }
+
+  .item1_div {
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .yazilar_mobile {
+    width: 90%;
+    margin-top: 50px;
+  }
+
+  .mv3300mobile {
+    max-width: 300px;
+  }
+
+  .h100_mobile {
+    height: 100%;
+  }
+  .item1_img {
+    margin-top: 20px;
+  }
+}
