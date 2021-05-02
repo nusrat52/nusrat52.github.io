@@ -3,17 +3,15 @@
 window.onscroll = function () {
   myFunction();
 };
-
 navbar = document.getElementById("header");
 
 function myFunction() {
-  // console.log(window.pageYOffset)
   if (window.pageYOffset > 0) {
     navbar.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");
   }
-  if (window.pageYOffset > 1117 && window.pageYOffset < 1800) {
+  if (window.pageYOffset >= 1117 && window.pageYOffset < 1800) {
     document.querySelector(".nav:nth-child(2)").classList.add("black");
   } else {
     document.querySelector(".nav:nth-child(2)").classList.remove("black");
@@ -24,10 +22,17 @@ function myFunction() {
     document.querySelector(".nav:nth-child(4)").classList.remove("black");
   }
 
-  if (window.pageYOffset > 3611 && window.pageYOffset < 4524) {
+  if (window.pageYOffset > document.querySelector("#ourServices").offsetTop-95 && window.pageYOffset < 4524) {
     document.querySelector(".nav:nth-child(3)").classList.add("black");
   } else {
     document.querySelector(".nav:nth-child(3)").classList.remove("black");
+  }
+
+
+  if (window.pageYOffset > document.querySelector("#ontactt").offsetTop-5 ) {
+    document.querySelector(".nav:nth-child(6)").classList.add("black");
+  } else {
+    document.querySelector(".nav:nth-child(6)").classList.remove("black");
   }
 }
 
@@ -124,3 +129,4 @@ forum.querySelector(".butt7").addEventListener("click", function () {
 
 });
 
+myFunction()
