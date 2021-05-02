@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    width: 25%;
+    min-width: max-content;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 5px;
+
+}
+
+.card__item{
+    width: 400px;
+    /* border: 1px black solid; */
+    padding: 15px;
+}
+
+.card__items{
+    font-weight: 700;
+    color: rgb(47, 47, 47);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.card__info{
+    font-weight: 400;
+    color: rgb(114, 114, 114);
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+
+
+  .modal__labels{
+      display: flex;
+      flex-direction: column;
+
+  }
+  .modal__inputs{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.modal-body{
+    display: flex;
+    
+}
+
+.label{
+    font-size: 18px;
+    margin-bottom: 17px;
+    margin-top: 12px;
+}
+
+.radio{
+    margin-bottom: 20px;
+    margin-top: 14px;
+}
+.input{
+    height: 30px;
+    width: 350px;
+    margin: 10px;
+}
+
+.modal__button{
+    padding: 10px 15px;
+    margin: 15px;
+}
+.modal__update{
+    padding: 10px 15px;
+    margin: 15px;
+}
+.male{
+    background-color: rgb(90, 90, 255);
+}
+.female{
+    background-color: rgb(255, 110, 110);
+}
+.red{
+    color: red;
+    margin: 15px;
+}
+
+.green{
+    color: green;
+    margin: 15px;
+
+}
+
+.d-none{
+    display: none;
+}

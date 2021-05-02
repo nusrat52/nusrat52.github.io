@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day1 sprin8</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+ 
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Yeni user melumatlari daxil edin</h2>
+    </div>
+    <div class="modal-body">
+<div class="modal__labels">
+    <label class="label" for="name">name</label>
+    <label class="label" for="surname">Surname</label>
+    <label class="label" for="title">title</label>
+    <label class="label" for="gender">gender</label>
+    <label class="label" for="story">story</label>
+</div>
+<div class="modal__inputs">
+    <input id="name" class="input"  type="text">
+    <input id="surname" class="input"  type="text">
+    <input id="title" class="input"  type="text">
+<select class="input" name="gender" id="gender">
+    <option value="male">male</option>
+    <option value="female">female</option>
+</select>
+    <input id="story" class="input"  type="text">
+</div>
+
+
+
+    </div>
+    <button class="modal__button">Post</button>
+    <button class="modal__update d-none">Update</button>
+
+<p class="message"></p>
+  </div>
+
+</div>
+    <section class="main">
+
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

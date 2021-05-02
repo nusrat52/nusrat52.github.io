@@ -1,0 +1,88 @@
+$sarikok: #d9832e;
+$boz:#555a64;
+$tumtundboz: rgba(9, 10, 12, 0.8);
+
+.fs-15 {
+  font-size: 15px;
+}
+.fs-18 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.fs-16 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+.fs-20 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.fs-14{
+margin: 0;
+font-size: 14px;
+letter-spacing: 2px;
+color: $boz;
+}
+
+
+.fs-60 {
+  font-size: 60px;
+  color: #090a0c;
+  font-weight: 600;
+  margin: 0 0 15px;
+  line-height: 1;
+}
+@mixin butto($bg: $sarikok, $color: white) {
+  padding: 15px 30px;
+  background-color: $bg;
+  color: $color;
+
+  font-weight: 400;
+  text-decoration: none;
+  transition: ease-in-out all 0.55s;
+}
+@mixin butto-wh($bg: white, $color: $sarikok) {
+  padding: 15px 30px;
+  background-color: $bg;
+  color: $color;
+  border: $sarikok 2px solid;
+  box-sizing: border-box;
+  font-weight: 400;
+  text-decoration: none;
+  transition: ease-in-out all 0.55s;
+}
+.h-100vh{
+    min-height: 100vh
+}
+.butto {
+  @include butto;
+}
+
+.butto-wh {
+  @include butto-wh;
+}
+.butto:hover {
+  background: #000;
+  color: white;
+}
+.butto-wh:hover {
+    background-color: $sarikok;
+    color: white;
+  }
+
+
+  @mixin xett($reng:$sarikok){
+    width: 55px;
+    height: 2px;
+    background-color: $reng;
+   }
+
+   .xet{
+       @include xett
+   }
+
+   .nav-black{
+    color: black !important;
+   }
