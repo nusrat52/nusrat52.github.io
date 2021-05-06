@@ -10,7 +10,9 @@ body h1{
 html {
   scroll-behavior: smooth;
 }
-
+/* *{
+  transition: 1s;
+} */
 
 /* ------------------------------------------------------------------header--------------------------------------------------- */
 
@@ -729,10 +731,57 @@ transition: none;
     max-width: 1500px;
 
 }
-.resp{
+.h0{
+  height: 0;
+}
+.hamburger{
+  margin: 10px;
+  font-size: 30px;
+  color: white;
+}
+.text-white{
+  background-color: white;
+}
+.text-gray{
+  color: gray;
+}
+.hFit{
+  height: fit-content;
+}
+.navHamburger__wrapper{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  
+}
+.him-ic{
+  display: none !important;
+}
+.navHamburger{
+  /* background-color: white; */
+  display: none;
+  width: 100%;
 
 }
-
+.align-center{
+  justify-content: center;
+}
+.gro-b{
+  width: 50%;
+}
+.hamburger{
+  display: flex;
+  justify-content: space-between;
+}
+.text-dark{
+  color: black;
+}
+.serenity{
+  color: white;
+}
+.theme-p{
+  color: white;
+}
 @media only screen and (max-width: 1200px) {
  .container{
    width: 80%;
@@ -748,7 +797,151 @@ justify-content: center;
 align-items: center;
 
 }
+.otuzz{
+  width: 100%;
+}
+.ont{
+  flex-direction: column;
+  
+}
+.altmis{
+  width: 100%;
+}
+
+.qosa{
+  flex-direction: column;
+  width: 100%;
+}
+.qosa>div{
+  width: 100%;
+}
+.otuzbir{
+  flex-direction: column;
+}
+.subss{
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.otuz{
+  width: 100%;
+}
+.advic{
+  flex-direction: column;
+}
+.gro-b{
+  width: 100%;
+}
+.sec5{
+  width: 100%;
+  margin-bottom: 15px;
+}
+.digi{
+  flex-direction: column;
+  align-items: center;
+}
+.awsome1{
+  margin:10px 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+.sec3{
+  width: 100%;
+  margin-bottom: 15px;
+}
+.ics{
+  flex-direction: column;
+}
+.groww{
+  flex-direction: column;
+}
+.slikk{
+  display: flex !important;
+  justify-content: center;
+}
+.sec{
+  margin-bottom: 15px;
+}
+/* p{
+  text-align: center;
+} */
+.sed{
+  width: 90%;
+}
+.jonatan{
+  flex-direction: column;
+  align-items: center;
+}
+.sec2{
+width: 100%;
+margin-bottom: 15px;
+}
+.buttonss{
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
 .sec{
   width: 100%;
 }
+.butt{
+  margin: 10px 0;
+}
+.yazilar{
+  text-align: center;
+  max-width: 80%;
+}
+.cont{
+  display: none;
+}
+.navHamburger{
+display: flex;
+flex-direction: column;
+/* background-color: white; */
+
+}
+.nav{
+  font-size:20px ;
+  margin: 10px !important;
+  color: black;
+}
+.navbar{
+  height: fit-content;
+}
+
+.theme-p{
+  margin-left:0;
+  /* margin-bottom: 30px; */
+  /* color: black; */
+  margin: 0 10px !important;
+  display: flex;
+  align-items: center;
+}
+.serenity{
+  /* color: black; */
+  margin: 0 10px !important;
+
+}
+.header{
+  height: fit-content;
+}
+.nav:nth-child(1) {
+color: black;
+
+
+}
+
+.text-dark{
+  color: black !important;
+}
+ }
+
+ @media only screen and (max-width: 400px) {
+
+
+/* 
+  .sec2{
+    width: 90%;
+    } */
+
  }

@@ -1,5 +1,28 @@
+let hamburger=document.querySelector(".hamburger")
+let hamTrans = document.querySelector(".navHamburger__wrapper")
+let navHam = document.querySelector(".navHamburger")
 
+hamburger.addEventListener("click", () => {
+  if (hamTrans.classList[1] === "h0") {
+    hamTrans.classList.remove("h0")
+    hamTrans.classList.add("hFit")
+    navHam.classList.add("text-white")
+    hamburger.classList.add("text-gray")
+    document.querySelector(".fa-bars").classList.add("him-ic")
+    document.querySelector(".fa-times").classList.remove("him-ic")
+    document.querySelectorAll(".serenity")[1].classList.add("text-dark")
+    document.querySelectorAll(".theme-p")[1].classList.add("text-dark")
 
+  }else{  hamTrans.classList.add("h0")
+    hamTrans.classList.remove("hFit")
+    navHam.classList.remove("text-white")
+    hamburger.classList.remove("text-gray")
+    document.querySelectorAll(".serenity")[1].classList.remove("text-dark")
+    document.querySelectorAll(".theme-p")[1].classList.remove("text-dark")
+    document.querySelector(".fa-bars").classList.remove("him-ic")
+    document.querySelector(".fa-times").classList.add("him-ic")
+  }
+})
 window.onscroll = function () {
   myFunction();
 };
@@ -8,8 +31,11 @@ navbar = document.getElementById("header");
 function myFunction() {
   if (window.pageYOffset > 0) {
     navbar.classList.add("sticky");
+    hamburger.classList.add("text-dark")
   } else {
     navbar.classList.remove("sticky");
+    hamburger.classList.remove("text-dark")
+
   }
   if (window.pageYOffset >= 1117 && window.pageYOffset < 1800) {
     document.querySelector(".nav:nth-child(2)").classList.add("black");
